@@ -564,4 +564,10 @@ menu "Device Support"
         default n
         help
           Say Y if you want to include support for Fire TV Stick 4K / 4K Max / 4K Plus (2nd Gen)
+
+    config XIAOMI_PISSARRO
+        bool "Support Redmi Note 11 Pro+ 5G"
+        default n
+        help
+          Say Y if you want to include support for Redmi Note 11 Pro+ 5G
 endmenu

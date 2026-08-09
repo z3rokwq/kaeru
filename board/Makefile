@@ -85,3 +85,4 @@ lib-$(CONFIG_AMAZON_DONUT) += amazon/board-donut.o
 lib-$(CONFIG_AMAZON_DOUGLAS) += amazon/board-douglas.o
 lib-$(CONFIG_AMAZON_ROOK) += amazon/board-rook.o
 lib-$(CONFIG_AMAZON_KARAT) += amazon/board-karat.o
+lib-$(CONFIG_XIAOMI_PISSARRO) += xiaomi/board-pissarro.o
