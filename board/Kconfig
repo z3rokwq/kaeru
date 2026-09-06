@@ -270,6 +270,28 @@ menu "Device Support"
           Select this if you need to include common board code
           for Amazon MT8163 devices.
 
+    config AMAZON_MT8163_AB
+        bool
+        select AMAZON_MT8163_COMMON
+        select AMZN_BCB_SUPPORT
+        help
+          Select this if you need to include slot handling for
+          A/B Amazon MT8163 devices.
+
+    config AMAZON_BISCUIT
+        bool "Support Echo Dot 2nd Gen (2016)"
+        select AMAZON_MT8163_AB
+        default n
+        help
+          Say Y if you want to include support for Echo Dot 2nd Gen (2016)
+
+    config AMAZON_RADAR
+        bool "Support Echo 2nd Gen (2017)"
+        select AMAZON_MT8163_AB
+        default n
+        help
+          Say Y if you want to include support for Echo 2nd Gen (2017)
+
     config AMAZON_CROWN
         bool "Support Echo Show 8 1st Gen (2019)"
         select AMAZON_MT8163_COMMON

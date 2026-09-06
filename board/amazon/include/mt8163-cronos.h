@@ -8,6 +8,8 @@
 #define BOARD_NAME                      "Echo Show 5 2nd Gen (2021)"
 #define RECOVERY_PARTITION              "swdl"
 
+#define HAVE_DISPLAY
+
 #define FASTBOOT_INIT_PRINTF_CALL_ADDR  0x4BD28C1C
 
 #define FB_CMD_FLASH_FUNC_ADDR          0x4BD2AE24

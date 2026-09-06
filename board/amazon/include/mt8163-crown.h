@@ -8,6 +8,8 @@
 #define BOARD_NAME                      "Echo Show 8 1st Gen (2019)"
 #define RECOVERY_PARTITION              "swdl"
 
+#define HAVE_DISPLAY
+
 #define FASTBOOT_INIT_PRINTF_CALL_ADDR  0x4BD28544
 
 #define FB_CMD_FLASH_FUNC_ADDR          0x4BD2A74C
