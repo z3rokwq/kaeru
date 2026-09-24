@@ -389,4 +389,10 @@ menu "Device Support"
         default n
         help
           Say Y if you want to include support for Fire (2015)
+
+    config XIAOMI_LIGHT
+        bool "Support POCO M4 5G / Redmi 10 5G / Redmi 11 Prime 5G / Redmi Note 11E/11R"
+        default n
+        help
+          Say Y if you want to include support for POCO M4 5G / Redmi 10 5G / Redmi 11 Prime 5G / Redmi Note 11E/11R
 endmenu
